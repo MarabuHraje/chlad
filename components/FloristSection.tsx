@@ -31,10 +31,11 @@ const FloristSection: React.FC = () => {
 
           <div className="relative h-[600px] hidden md:block">
             <div className="absolute top-10 right-10 w-80 h-[500px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform rotate-3 animate-float">
+              {/* Image 3 */}
               <img 
-                src="images/3.jpeg" 
-                alt="Spokojené zákaznice s kyticemi" 
-                className="w-full h-full object-cover object-top"
+                src="https://marabie.eu/images_chlad/3.jpeg" 
+                alt="Ukázka naší floristiky" 
+                className="w-full h-full object-cover"
               />
             </div>
             <div className="absolute bottom-20 left-10 w-64 h-64 bg-white p-6 rounded-xl shadow-xl transform -rotate-3 animate-float-delayed z-20 flex flex-col justify-center border border-stone-100">
@@ -51,8 +52,10 @@ const FloristSection: React.FC = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
              <div className="order-2 lg:order-1 relative">
                 <div className="grid grid-cols-2 gap-4">
-                  <img src="images/4.jpeg" className="rounded-2xl shadow-lg mt-12 w-full h-80 object-cover" alt="Květinové aranžmá" />
-                  <img src="images/5.jpeg" className="rounded-2xl shadow-lg w-full h-80 object-cover" alt="Regál s květinami" />
+                  {/* Image 4 */}
+                  <img src="https://marabie.eu/images_chlad/4.jpeg" className="rounded-2xl shadow-lg mt-12 w-full h-80 object-cover" alt="Květinové aranžmá" loading="lazy" />
+                  {/* Image 5 */}
+                  <img src="https://marabie.eu/images_chlad/5.jpeg" className="rounded-2xl shadow-lg w-full h-80 object-cover" alt="Květinová výzdoba" loading="lazy" />
                 </div>
                 <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-cream rounded-full blur-3xl opacity-50"></div>
              </div>
@@ -151,7 +154,8 @@ const FloristSection: React.FC = () => {
               {/* Card 1: Sezónní a sváteční dekorace */}
               <div className="bg-white rounded-3xl shadow-sm border border-stone-100 overflow-hidden flex flex-col h-full hover:shadow-lg transition-shadow duration-300">
                  <div className="h-64 w-full relative group overflow-hidden">
-                    <img src="images/6.jpeg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Sezónní dekorace ve výloze" />
+                    {/* Image 6 */}
+                    <img src="https://marabie.eu/images_chlad/6.jpeg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Sezónní dekorace" loading="lazy" />
                     <div className="absolute inset-0 bg-gradient-to-t from-stone-900/40 to-transparent"></div>
                  </div>
                  <div className="p-10 space-y-6 flex-1 flex flex-col">
@@ -176,7 +180,8 @@ const FloristSection: React.FC = () => {
               {/* Card 2: Smuteční floristika */}
               <div className="bg-white rounded-3xl shadow-sm border border-stone-100 overflow-hidden flex flex-col h-full hover:shadow-lg transition-shadow duration-300">
                  <div className="h-64 w-full relative group overflow-hidden">
-                    <img src="images/7.jpeg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Smuteční floristika a rostliny" />
+                    {/* Image 7 */}
+                    <img src="https://marabie.eu/images_chlad/7.jpeg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Smuteční floristika" loading="lazy" />
                     <div className="absolute inset-0 bg-stone-900/10"></div>
                  </div>
                  <div className="p-10 space-y-6 flex-1 flex flex-col">

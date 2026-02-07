@@ -53,19 +53,19 @@ const Hero: React.FC = () => {
 
         <div className="relative h-[600px] md:h-[700px] w-full hidden md:block perspective-1000">
           {/* Floating Images */}
-          {/* Top Image: Cafe (Larger) */}
+          {/* Top Image: Cafe (Larger) - Using 1.jpeg form remote server */}
           <div className="absolute top-0 left-0 w-80 h-96 rounded-2xl overflow-hidden shadow-2xl z-20 border-4 border-white transform -rotate-3 hover:rotate-0 transition-transform duration-500 animate-float">
             <img 
-              src="images/1.jpeg" 
-              alt="Interiér kavárny s modrými křesly" 
+              src="https://marabie.eu/images_chlad/1.jpeg" 
+              alt="Atmosféra kavárny" 
               className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
             />
           </div>
-          {/* Bottom Image: Flowers */}
+          {/* Bottom Image: Flowers - Using 2.jpeg form remote server */}
           <div className="absolute bottom-12 right-0 w-80 h-96 rounded-2xl overflow-hidden shadow-2xl z-10 border-4 border-white transform rotate-3 hover:rotate-0 transition-transform duration-500 animate-float-delayed">
             <img 
-              src="images/2.jpeg" 
-              alt="Jarní aranžmá v košíku" 
+              src="https://marabie.eu/images_chlad/2.jpeg" 
+              alt="Květinové dekorace" 
               className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
             />
           </div>

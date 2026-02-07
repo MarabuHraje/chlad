@@ -11,10 +11,12 @@ const AboutPreview: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center gap-16">
           <div className="md:w-1/2 relative">
              <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
+               {/* Image 16 */}
                <img 
-                  src="images/16.jpeg" 
-                  alt="Petra Tichá a Petra Chladová" 
+                  src="https://marabie.eu/images_chlad/16.jpeg" 
+                  alt="Majitelky Petra a Petra" 
                   className="w-full h-auto object-cover"
+                  loading="lazy"
                 />
              </div>
              <div className="absolute -bottom-6 -right-6 w-full h-full border-2 border-stone-300 rounded-2xl -z-0"></div>

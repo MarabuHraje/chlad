@@ -56,10 +56,12 @@ const ContactPage = () => (
           </div>
           <div className="md:w-1/2">
              <div className="rounded-2xl overflow-hidden shadow-xl rotate-1 hover:rotate-0 transition-transform duration-500 border-4 border-white h-64 md:h-80 w-full">
+               {/* Image 15 */}
                <img 
-                 src="images/15.jpeg" 
-                 alt="Naše výloha" 
+                 src="https://marabie.eu/images_chlad/15.jpeg" 
+                 alt="Vstup do obchodu" 
                  className="w-full h-full object-cover"
+                 loading="lazy"
                />
              </div>
           </div>

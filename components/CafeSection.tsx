@@ -11,16 +11,18 @@ const CafeSection: React.FC = () => {
         <div className="container mx-auto px-6 relative z-10 grid md:grid-cols-2 gap-16 items-center">
           <div className="relative h-[600px] hidden md:block order-2 md:order-1">
             <div className="absolute top-10 left-10 w-96 h-[450px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform -rotate-2 animate-float">
+              {/* Image 8 */}
               <img 
-                src="images/8.jpeg" 
-                alt="Příjemný interiér kavárny" 
+                src="https://marabie.eu/images_chlad/8.jpeg" 
+                alt="Interiér kavárny" 
                 className="w-full h-full object-cover"
               />
             </div>
              <div className="absolute bottom-24 right-10 w-64 h-64 rounded-full overflow-hidden shadow-2xl border-4 border-white transform rotate-6 animate-float-delayed z-20">
+              {/* Image 9 */}
               <img 
-                src="images/9.jpeg" 
-                alt="Domácí buchty" 
+                src="https://marabie.eu/images_chlad/9.jpeg" 
+                alt="Naše dezerty" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -64,7 +66,8 @@ const CafeSection: React.FC = () => {
               {/* Coffee Column */}
               <div className="space-y-6 group">
                 <div className="h-64 rounded-2xl overflow-hidden relative shadow-lg">
-                   <img src="images/10.jpeg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Pohodlné posezení" />
+                   {/* Image 10 */}
+                   <img src="https://marabie.eu/images_chlad/10.jpeg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Výběrová káva" loading="lazy" />
                    <div className="absolute top-4 left-4 bg-white/90 backdrop-blur px-4 py-2 rounded-lg font-bold text-stone-900 flex items-center gap-2">
                       <Bean className="text-coffee w-5 h-5" /> Káva
                    </div>
@@ -85,7 +88,8 @@ const CafeSection: React.FC = () => {
               {/* Sweet Column */}
               <div className="space-y-6 group">
                 <div className="h-64 rounded-2xl overflow-hidden relative shadow-lg">
-                   <img src="images/11.jpeg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Čerstvé pečivo" />
+                   {/* Image 11 */}
+                   <img src="https://marabie.eu/images_chlad/11.jpeg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Zákusky a dorty" loading="lazy" />
                    <div className="absolute top-4 left-4 bg-white/90 backdrop-blur px-4 py-2 rounded-lg font-bold text-stone-900 flex items-center gap-2">
                       <Croissant className="text-accent w-5 h-5" /> Cukrárna
                    </div>
@@ -106,7 +110,8 @@ const CafeSection: React.FC = () => {
               {/* Salty Column */}
               <div className="space-y-6 group">
                 <div className="h-64 rounded-2xl overflow-hidden relative shadow-lg">
-                   <img src="images/12.jpeg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Pult s občerstvením" />
+                   {/* Image 12 */}
+                   <img src="https://marabie.eu/images_chlad/12.jpeg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Slané občerstvení" loading="lazy" />
                    <div className="absolute top-4 left-4 bg-white/90 backdrop-blur px-4 py-2 rounded-lg font-bold text-stone-900 flex items-center gap-2">
                       <Utensils className="text-secondary w-5 h-5" /> Svačinky
                    </div>
@@ -142,8 +147,10 @@ const CafeSection: React.FC = () => {
                </div>
                <div className="md:w-1/2">
                   <div className="grid grid-cols-2 gap-4">
-                     <img src="images/13.jpeg" className="rounded-xl shadow-md rotate-2 w-full h-64 object-cover" alt="Regál s dárky" />
-                     <img src="images/14.jpeg" className="rounded-xl shadow-md -rotate-2 mt-8 w-full h-64 object-cover" alt="Dárkový koš" />
+                     {/* Image 13 */}
+                     <img src="https://marabie.eu/images_chlad/13.jpeg" className="rounded-xl shadow-md rotate-2 w-full h-64 object-cover" alt="Dárkový koš" loading="lazy" />
+                     {/* Image 14 */}
+                     <img src="https://marabie.eu/images_chlad/14.jpeg" className="rounded-xl shadow-md -rotate-2 mt-8 w-full h-64 object-cover" alt="Balíček s vínem" loading="lazy" />
                   </div>
                </div>
             </div>

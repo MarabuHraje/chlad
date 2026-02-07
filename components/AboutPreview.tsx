@@ -1,6 +1,5 @@
 import React from 'react';
 import { Quote } from 'lucide-react';
-import img16 from '../images/16.jpeg';
 
 const AboutPreview: React.FC = () => {
   return (
@@ -13,7 +12,7 @@ const AboutPreview: React.FC = () => {
           <div className="md:w-1/2 relative">
              <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
                <img 
-                  src={img16} 
+                  src="images/16.jpeg" 
                   alt="Petra Tichá a Petra Chladová" 
                   className="w-full h-auto object-cover"
                 />

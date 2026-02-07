@@ -1,30 +1,19 @@
 import React from 'react';
-import img1 from '../images/1.jpeg';
-import img2 from '../images/2.jpeg';
-import img3 from '../images/3.jpeg';
-import img5 from '../images/5.jpeg';
-import img6 from '../images/6.jpeg';
-import img7 from '../images/7.jpeg';
-import img9 from '../images/9.jpeg';
-import img10 from '../images/10.jpeg';
-import img12 from '../images/12.jpeg';
-import img13 from '../images/13.jpeg';
-import img17 from '../images/17.jpeg';
 
 const Gallery: React.FC = () => {
   // Gallery mapping based on user photos (1.jpeg - 17.jpeg)
   const images = [
-    { src: img1, alt: 'Interiér kavárny s modrými křesly', category: 'Kavárna', span: 'col-span-2 md:col-span-2 row-span-2' },
-    { src: img3, alt: 'Spokojené zákaznice', category: 'Květiny', span: 'col-span-1 row-span-2' },
-    { src: img9, alt: 'Domácí buchty', category: 'Cukrárna', span: 'col-span-1 row-span-1' },
-    { src: img6, alt: 'Výloha', category: 'Květiny', span: 'col-span-1 row-span-1' },
-    { src: img12, alt: 'Barový pult', category: 'Kavárna', span: 'col-span-2 row-span-1' },
-    { src: img13, alt: 'Dárkové předměty', category: 'Dárky', span: 'col-span-1 row-span-2' },
-    { src: img2, alt: 'Jarní košík', category: 'Květiny', span: 'col-span-1 row-span-1' },
-    { src: img10, alt: 'Houpací křeslo', category: 'Interiér', span: 'col-span-1 row-span-1' },
-    { src: img5, alt: 'Květinový regál', category: 'Květiny', span: 'col-span-1 row-span-1' },
-    { src: img7, alt: 'Pokojové rostliny', category: 'Květiny', span: 'col-span-1 row-span-1' },
-    { src: img17, alt: 'Detail květin', category: 'Květiny', span: 'col-span-1 row-span-1' },
+    { src: 'images/1.jpeg', alt: 'Interiér kavárny s modrými křesly', category: 'Kavárna', span: 'col-span-2 md:col-span-2 row-span-2' },
+    { src: 'images/3.jpeg', alt: 'Spokojené zákaznice', category: 'Květiny', span: 'col-span-1 row-span-2' },
+    { src: 'images/9.jpeg', alt: 'Domácí buchty', category: 'Cukrárna', span: 'col-span-1 row-span-1' },
+    { src: 'images/6.jpeg', alt: 'Výloha', category: 'Květiny', span: 'col-span-1 row-span-1' },
+    { src: 'images/12.jpeg', alt: 'Barový pult', category: 'Kavárna', span: 'col-span-2 row-span-1' },
+    { src: 'images/13.jpeg', alt: 'Dárkové předměty', category: 'Dárky', span: 'col-span-1 row-span-2' },
+    { src: 'images/2.jpeg', alt: 'Jarní košík', category: 'Květiny', span: 'col-span-1 row-span-1' },
+    { src: 'images/10.jpeg', alt: 'Houpací křeslo', category: 'Interiér', span: 'col-span-1 row-span-1' },
+    { src: 'images/5.jpeg', alt: 'Květinový regál', category: 'Květiny', span: 'col-span-1 row-span-1' },
+    { src: 'images/7.jpeg', alt: 'Pokojové rostliny', category: 'Květiny', span: 'col-span-1 row-span-1' },
+    { src: 'images/17.jpeg', alt: 'Detail květin', category: 'Květiny', span: 'col-span-1 row-span-1' },
   ];
 
   return (

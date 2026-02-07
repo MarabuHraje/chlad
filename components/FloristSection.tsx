@@ -1,10 +1,5 @@
 import React from 'react';
 import { CheckCircle2, ArrowRight, Heart, Sprout, Star, Calendar, HeartHandshake } from 'lucide-react';
-import img3 from '../images/3.jpeg';
-import img4 from '../images/4.jpeg';
-import img5 from '../images/5.jpeg';
-import img6 from '../images/6.jpeg';
-import img7 from '../images/7.jpeg';
 
 const FloristSection: React.FC = () => {
   return (
@@ -37,7 +32,7 @@ const FloristSection: React.FC = () => {
           <div className="relative h-[600px] hidden md:block">
             <div className="absolute top-10 right-10 w-80 h-[500px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform rotate-3 animate-float">
               <img 
-                src={img3} 
+                src="images/3.jpeg" 
                 alt="Spokojené zákaznice s kyticemi" 
                 className="w-full h-full object-cover object-top"
               />
@@ -56,8 +51,8 @@ const FloristSection: React.FC = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
              <div className="order-2 lg:order-1 relative">
                 <div className="grid grid-cols-2 gap-4">
-                  <img src={img4} className="rounded-2xl shadow-lg mt-12 w-full h-80 object-cover" alt="Květinové aranžmá" />
-                  <img src={img5} className="rounded-2xl shadow-lg w-full h-80 object-cover" alt="Regál s květinami" />
+                  <img src="images/4.jpeg" className="rounded-2xl shadow-lg mt-12 w-full h-80 object-cover" alt="Květinové aranžmá" />
+                  <img src="images/5.jpeg" className="rounded-2xl shadow-lg w-full h-80 object-cover" alt="Regál s květinami" />
                 </div>
                 <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-cream rounded-full blur-3xl opacity-50"></div>
              </div>
@@ -156,7 +151,7 @@ const FloristSection: React.FC = () => {
               {/* Card 1: Sezónní a sváteční dekorace */}
               <div className="bg-white rounded-3xl shadow-sm border border-stone-100 overflow-hidden flex flex-col h-full hover:shadow-lg transition-shadow duration-300">
                  <div className="h-64 w-full relative group overflow-hidden">
-                    <img src={img6} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Sezónní dekorace ve výloze" />
+                    <img src="images/6.jpeg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Sezónní dekorace ve výloze" />
                     <div className="absolute inset-0 bg-gradient-to-t from-stone-900/40 to-transparent"></div>
                  </div>
                  <div className="p-10 space-y-6 flex-1 flex flex-col">
@@ -181,7 +176,7 @@ const FloristSection: React.FC = () => {
               {/* Card 2: Smuteční floristika */}
               <div className="bg-white rounded-3xl shadow-sm border border-stone-100 overflow-hidden flex flex-col h-full hover:shadow-lg transition-shadow duration-300">
                  <div className="h-64 w-full relative group overflow-hidden">
-                    <img src={img7} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Smuteční floristika a rostliny" />
+                    <img src="images/7.jpeg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Smuteční floristika a rostliny" />
                     <div className="absolute inset-0 bg-stone-900/10"></div>
                  </div>
                  <div className="p-10 space-y-6 flex-1 flex flex-col">

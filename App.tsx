@@ -10,7 +10,6 @@ import Gallery from './components/Gallery';
 import AboutPreview from './components/AboutPreview';
 import Testimonials from './components/Testimonials';
 import { Phone, Flower2, Coffee } from 'lucide-react';
-import img15 from './images/15.jpeg';
 
 // Wrapper to scroll to top on route change
 const ScrollToTop = () => {
@@ -58,7 +57,7 @@ const ContactPage = () => (
           <div className="md:w-1/2">
              <div className="rounded-2xl overflow-hidden shadow-xl rotate-1 hover:rotate-0 transition-transform duration-500 border-4 border-white h-64 md:h-80 w-full">
                <img 
-                 src={img15} 
+                 src="images/15.jpeg" 
                  alt="Naše výloha" 
                  className="w-full h-full object-cover"
                />

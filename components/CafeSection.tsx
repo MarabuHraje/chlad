@@ -1,12 +1,5 @@
 import React from 'react';
 import { Star, ArrowRight, Coffee, Croissant, Utensils, Bean } from 'lucide-react';
-import img8 from '../images/8.jpeg';
-import img9 from '../images/9.jpeg';
-import img10 from '../images/10.jpeg';
-import img11 from '../images/11.jpeg';
-import img12 from '../images/12.jpeg';
-import img13 from '../images/13.jpeg';
-import img14 from '../images/14.jpeg';
 
 const CafeSection: React.FC = () => {
   return (
@@ -19,14 +12,14 @@ const CafeSection: React.FC = () => {
           <div className="relative h-[600px] hidden md:block order-2 md:order-1">
             <div className="absolute top-10 left-10 w-96 h-[450px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform -rotate-2 animate-float">
               <img 
-                src={img8} 
+                src="images/8.jpeg" 
                 alt="Příjemný interiér kavárny" 
                 className="w-full h-full object-cover"
               />
             </div>
              <div className="absolute bottom-24 right-10 w-64 h-64 rounded-full overflow-hidden shadow-2xl border-4 border-white transform rotate-6 animate-float-delayed z-20">
               <img 
-                src={img9} 
+                src="images/9.jpeg" 
                 alt="Domácí buchty" 
                 className="w-full h-full object-cover"
               />
@@ -71,7 +64,7 @@ const CafeSection: React.FC = () => {
               {/* Coffee Column */}
               <div className="space-y-6 group">
                 <div className="h-64 rounded-2xl overflow-hidden relative shadow-lg">
-                   <img src={img10} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Pohodlné posezení" />
+                   <img src="images/10.jpeg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Pohodlné posezení" />
                    <div className="absolute top-4 left-4 bg-white/90 backdrop-blur px-4 py-2 rounded-lg font-bold text-stone-900 flex items-center gap-2">
                       <Bean className="text-coffee w-5 h-5" /> Káva
                    </div>
@@ -92,7 +85,7 @@ const CafeSection: React.FC = () => {
               {/* Sweet Column */}
               <div className="space-y-6 group">
                 <div className="h-64 rounded-2xl overflow-hidden relative shadow-lg">
-                   <img src={img11} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Čerstvé pečivo" />
+                   <img src="images/11.jpeg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Čerstvé pečivo" />
                    <div className="absolute top-4 left-4 bg-white/90 backdrop-blur px-4 py-2 rounded-lg font-bold text-stone-900 flex items-center gap-2">
                       <Croissant className="text-accent w-5 h-5" /> Cukrárna
                    </div>
@@ -113,7 +106,7 @@ const CafeSection: React.FC = () => {
               {/* Salty Column */}
               <div className="space-y-6 group">
                 <div className="h-64 rounded-2xl overflow-hidden relative shadow-lg">
-                   <img src={img12} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Pult s občerstvením" />
+                   <img src="images/12.jpeg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Pult s občerstvením" />
                    <div className="absolute top-4 left-4 bg-white/90 backdrop-blur px-4 py-2 rounded-lg font-bold text-stone-900 flex items-center gap-2">
                       <Utensils className="text-secondary w-5 h-5" /> Svačinky
                    </div>
@@ -149,8 +142,8 @@ const CafeSection: React.FC = () => {
                </div>
                <div className="md:w-1/2">
                   <div className="grid grid-cols-2 gap-4">
-                     <img src={img13} className="rounded-xl shadow-md rotate-2 w-full h-64 object-cover" alt="Regál s dárky" />
-                     <img src={img14} className="rounded-xl shadow-md -rotate-2 mt-8 w-full h-64 object-cover" alt="Dárkový koš" />
+                     <img src="images/13.jpeg" className="rounded-xl shadow-md rotate-2 w-full h-64 object-cover" alt="Regál s dárky" />
+                     <img src="images/14.jpeg" className="rounded-xl shadow-md -rotate-2 mt-8 w-full h-64 object-cover" alt="Dárkový koš" />
                   </div>
                </div>
             </div>

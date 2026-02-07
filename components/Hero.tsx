@@ -1,8 +1,6 @@
 import React from 'react';
 import { ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import img1 from '../images/1.jpeg';
-import img2 from '../images/2.jpeg';
 
 const Hero: React.FC = () => {
   return (
@@ -58,7 +56,7 @@ const Hero: React.FC = () => {
           {/* Top Image: Cafe (Larger) */}
           <div className="absolute top-0 left-0 w-80 h-96 rounded-2xl overflow-hidden shadow-2xl z-20 border-4 border-white transform -rotate-3 hover:rotate-0 transition-transform duration-500 animate-float">
             <img 
-              src={img1} 
+              src="images/1.jpeg" 
               alt="Interiér kavárny s modrými křesly" 
               className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
             />
@@ -66,7 +64,7 @@ const Hero: React.FC = () => {
           {/* Bottom Image: Flowers */}
           <div className="absolute bottom-12 right-0 w-80 h-96 rounded-2xl overflow-hidden shadow-2xl z-10 border-4 border-white transform rotate-3 hover:rotate-0 transition-transform duration-500 animate-float-delayed">
             <img 
-              src={img2} 
+              src="images/2.jpeg" 
               alt="Jarní aranžmá v košíku" 
               className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
             />

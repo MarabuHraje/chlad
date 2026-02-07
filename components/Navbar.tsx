@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Coffee, Flower2 } from 'lucide-react';
+import { Menu, X, Coffee, Flower2, Mail } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
@@ -58,12 +58,13 @@ const Navbar: React.FC = () => {
               {link.name}
             </Link>
           ))}
-          <a 
-            href="tel:731827149" 
+          <Link 
+            to="/kontakt" 
             className="px-6 py-2.5 bg-primary text-white rounded-full hover:bg-green-700 hover:shadow-lg hover:shadow-primary/30 transition-all duration-300 font-medium tracking-wide flex items-center gap-2"
           >
-            731 827 149
-          </a>
+            <Mail size={16} />
+            Kontaktovat
+          </Link>
         </div>
 
         {/* Mobile Toggle */}
@@ -90,12 +91,12 @@ const Navbar: React.FC = () => {
                 {link.name}
               </Link>
             ))}
-            <a 
-              href="tel:731827149" 
-              className="mt-4 w-full text-center px-5 py-3 bg-primary text-white rounded-lg"
+            <Link 
+              to="/kontakt" 
+              className="mt-4 w-full text-center px-5 py-3 bg-primary text-white rounded-lg block"
             >
-              Zavolat
-            </a>
+              Kontaktovat
+            </Link>
           </div>
         </div>
       )}

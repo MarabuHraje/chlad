@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, MapPin, Clock, Mail, Instagram, Facebook } from 'lucide-react';
+import { Phone, MapPin, Clock, Mail, Facebook } from 'lucide-react';
 
 const Contact: React.FC = () => {
   return (
@@ -28,11 +28,15 @@ const Contact: React.FC = () => {
                   <Mail size={24} />
                 </div>
                 <div>
-                  <p className="text-xs text-stone-400 uppercase font-bold tracking-widest mb-1">Odpovědná osoba</p>
+                  <p className="text-xs text-stone-400 uppercase font-bold tracking-widest mb-1">Odpovědné osoby</p>
                   <p className="text-xl font-medium text-stone-900">
-                    Martin Chlad
+                    Petra Tichá
                   </p>
-                  <p className="text-stone-500 text-sm">Provozovatel</p>
+                  <p className="text-sm text-stone-500">Květinářství</p>
+                  <p className="text-xl font-medium text-stone-900 mt-2">
+                    Petra Chladová
+                  </p>
+                  <p className="text-sm text-stone-500">Kavárna & Cukrárna</p>
                 </div>
               </div>
             </div>
@@ -76,9 +80,6 @@ const Contact: React.FC = () => {
              </p>
              <div className="flex gap-4">
                <a href="#" className="w-14 h-14 bg-stone-900 text-white rounded-full flex items-center justify-center hover:bg-primary hover:-translate-y-1 transition-all duration-300 shadow-lg">
-                 <Instagram size={28} />
-               </a>
-               <a href="#" className="w-14 h-14 bg-stone-900 text-white rounded-full flex items-center justify-center hover:bg-primary hover:-translate-y-1 transition-all duration-300 shadow-lg">
                  <Facebook size={28} />
                </a>
              </div>
@@ -91,7 +92,7 @@ const Contact: React.FC = () => {
         </div>
 
         <div className="border-t border-stone-200 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-stone-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} Martin Chlad. Všechna práva vyhrazena.</p>
+          <p>&copy; {new Date().getFullYear()} Petra Tichá & Petra Chladová. Všechna práva vyhrazena.</p>
           <div className="flex gap-6">
              <a href="#" className="hover:text-primary transition-colors">Ochrana údajů</a>
              <a href="#" className="hover:text-primary transition-colors">Cookies</a>

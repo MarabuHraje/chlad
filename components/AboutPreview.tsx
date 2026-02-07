@@ -1,5 +1,6 @@
 import React from 'react';
 import { Quote } from 'lucide-react';
+import img16 from '../images/16.jpeg';
 
 const AboutPreview: React.FC = () => {
   return (
@@ -11,7 +12,11 @@ const AboutPreview: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center gap-16">
           <div className="md:w-1/2 relative">
              <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
-               <img src="https://picsum.photos/600/700?random=90" alt="Majitel Martin Chlad" className="w-full h-auto object-cover" />
+               <img 
+                  src={img16} 
+                  alt="Petra Tichá a Petra Chladová" 
+                  className="w-full h-auto object-cover"
+                />
              </div>
              <div className="absolute -bottom-6 -right-6 w-full h-full border-2 border-stone-300 rounded-2xl -z-0"></div>
           </div>
@@ -22,21 +27,25 @@ const AboutPreview: React.FC = () => {
                 Náš příběh
              </div>
              <h2 className="text-4xl md:text-5xl font-serif font-bold text-stone-900">
-               Když se vášeň stane <span className="text-primary">posláním</span>
+               Dvě Petry, <span className="text-primary">jeden sen</span>
              </h2>
              <p className="text-lg text-stone-600 leading-relaxed font-light">
-               Jmenuji se <strong>Martin Chlad</strong> a mým snem bylo vytvořit místo, kde se lidé budou cítit dobře. Místo, kde voní čerstvá káva a kde květiny rozdávají radost.
+               Vítejte v našem světě. Jsme <strong>Petra Chladová</strong> a <strong>Petra Tichá</strong>. Spojilo nás přátelství a touha vytvořit místo, kde se budete cítit jako doma.
              </p>
              <p className="text-lg text-stone-600 leading-relaxed font-light">
-               V naší kavárně a květinářství Petra spojujeme poctivé řemeslo s moderním přístupem. Ať už přijdete pro kytici k narozeninám, nebo si jen odpočinout u šálku cappuccina, chceme, abyste odcházeli s úsměvem.
+               Zatímco <strong>Petra Tichá</strong> dává duši květinám a tvoří pro vás ty nejkrásnější vazby, <strong>Petra Chladová</strong> se stará o to, aby naše kavárna a cukrárna voněla čerstvou kávou a domácími dezerty.
              </p>
              
              <div className="bg-white p-6 rounded-xl border-l-4 border-secondary shadow-sm">
                 <Quote className="text-secondary/40 mb-2 w-8 h-8" />
                 <p className="font-serif italic text-stone-800 text-lg">
-                  "Největší odměnou je pro nás vracející se zákazník. To je důkaz, že to děláme správně."
+                  "Děláme to, co milujeme. A věříme, že je to na naší práci znát."
                 </p>
-                <p className="text-sm font-bold text-stone-500 mt-4 uppercase tracking-wider">— Martin Chlad, majitel</p>
+                <div className="mt-4 flex gap-4 text-sm font-bold text-stone-500 uppercase tracking-wider">
+                  <span>— Petra Tichá</span>
+                  <span>&</span>
+                  <span>Petra Chladová</span>
+                </div>
              </div>
           </div>
         </div>

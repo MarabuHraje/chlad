@@ -1,21 +1,30 @@
 import React from 'react';
+import img1 from '../images/1.jpeg';
+import img2 from '../images/2.jpeg';
+import img3 from '../images/3.jpeg';
+import img5 from '../images/5.jpeg';
+import img6 from '../images/6.jpeg';
+import img7 from '../images/7.jpeg';
+import img9 from '../images/9.jpeg';
+import img10 from '../images/10.jpeg';
+import img12 from '../images/12.jpeg';
+import img13 from '../images/13.jpeg';
+import img17 from '../images/17.jpeg';
 
 const Gallery: React.FC = () => {
+  // Gallery mapping based on user photos (1.jpeg - 17.jpeg)
   const images = [
-    { src: 'https://picsum.photos/600/800?random=101', alt: 'Svatební kytice', category: 'Svatby', span: 'row-span-2' },
-    { src: 'https://picsum.photos/600/600?random=102', alt: 'Káva a dort', category: 'Kavárna', span: 'col-span-1' },
-    { src: 'https://picsum.photos/800/600?random=103', alt: 'Dárkové balení', category: 'Dárky', span: 'col-span-2' },
-    { src: 'https://picsum.photos/600/900?random=104', alt: 'Interiér', category: 'Kavárna', span: 'row-span-2' },
-    { src: 'https://picsum.photos/600/600?random=105', alt: 'Vazba květin', category: 'Květiny', span: 'col-span-1' },
-    { src: 'https://picsum.photos/800/600?random=106', alt: 'Zákusky', category: 'Cukrárna', span: 'col-span-1' },
-    { src: 'https://picsum.photos/600/800?random=107', alt: 'Květinový box', category: 'Květiny', span: 'row-span-2' },
-    { src: 'https://picsum.photos/600/600?random=108', alt: 'Latte', category: 'Káva', span: 'col-span-1' },
-    { src: 'https://picsum.photos/600/600?random=109', alt: 'Detail květu', category: 'Květiny', span: 'col-span-1' },
-    { src: 'https://picsum.photos/800/600?random=110', alt: 'Oslava', category: 'Akce', span: 'col-span-2' },
-    { src: 'https://picsum.photos/600/800?random=111', alt: 'Svatební brána', category: 'Svatby', span: 'row-span-2' },
-    { src: 'https://picsum.photos/600/600?random=112', alt: 'Cappuccino', category: 'Káva', span: 'col-span-1' },
-    { src: 'https://picsum.photos/600/600?random=113', alt: 'Detail dortu', category: 'Cukrárna', span: 'col-span-1' },
-    { src: 'https://picsum.photos/600/600?random=114', alt: 'Makronky', category: 'Cukrárna', span: 'col-span-1' },
+    { src: img1, alt: 'Interiér kavárny s modrými křesly', category: 'Kavárna', span: 'col-span-2 md:col-span-2 row-span-2' },
+    { src: img3, alt: 'Spokojené zákaznice', category: 'Květiny', span: 'col-span-1 row-span-2' },
+    { src: img9, alt: 'Domácí buchty', category: 'Cukrárna', span: 'col-span-1 row-span-1' },
+    { src: img6, alt: 'Výloha', category: 'Květiny', span: 'col-span-1 row-span-1' },
+    { src: img12, alt: 'Barový pult', category: 'Kavárna', span: 'col-span-2 row-span-1' },
+    { src: img13, alt: 'Dárkové předměty', category: 'Dárky', span: 'col-span-1 row-span-2' },
+    { src: img2, alt: 'Jarní košík', category: 'Květiny', span: 'col-span-1 row-span-1' },
+    { src: img10, alt: 'Houpací křeslo', category: 'Interiér', span: 'col-span-1 row-span-1' },
+    { src: img5, alt: 'Květinový regál', category: 'Květiny', span: 'col-span-1 row-span-1' },
+    { src: img7, alt: 'Pokojové rostliny', category: 'Květiny', span: 'col-span-1 row-span-1' },
+    { src: img17, alt: 'Detail květin', category: 'Květiny', span: 'col-span-1 row-span-1' },
   ];
 
   return (
@@ -36,7 +45,7 @@ const Gallery: React.FC = () => {
           {images.map((img, index) => (
             <div 
               key={index} 
-              className={`group relative overflow-hidden rounded-2xl shadow-sm cursor-pointer ${img.span} min-h-full w-full`}
+              className={`group relative overflow-hidden rounded-2xl shadow-sm cursor-pointer ${img.span} min-h-[250px] w-full`}
             >
               <img 
                 src={img.src} 

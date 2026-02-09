@@ -97,10 +97,16 @@ const ContactPage = () => (
                 </div>
              </div>
              <p className="text-stone-600 mb-4">Rezervace stolů, objednávky dortů a zákusků.</p>
-             <a href="tel:731827149" className="flex items-center gap-2 text-xl font-bold text-secondary hover:underline">
-                <Phone size={20} />
-                731 827 149
-             </a>
+             <div className="flex flex-col gap-2">
+                <a href="tel:731827149" className="flex items-center gap-2 text-xl font-bold text-secondary hover:underline">
+                    <Phone size={20} />
+                    731 827 149
+                </a>
+                <a href="tel:727821315" className="flex items-center gap-2 text-xl font-bold text-secondary hover:underline">
+                    <Phone size={20} />
+                    727 821 315
+                </a>
+             </div>
           </div>
        </div>
       

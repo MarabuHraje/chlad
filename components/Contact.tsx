@@ -17,9 +17,14 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-xs text-stone-400 uppercase font-bold tracking-widest mb-1">Telefon</p>
-                  <a href="tel:731827149" className="text-xl font-medium text-stone-900 hover:text-primary transition-colors">
-                    731 827 149
-                  </a>
+                  <div className="flex flex-col gap-1">
+                    <a href="tel:731827149" className="text-xl font-medium text-stone-900 hover:text-primary transition-colors">
+                      731 827 149
+                    </a>
+                    <a href="tel:727821315" className="text-xl font-medium text-stone-900 hover:text-primary transition-colors">
+                      727 821 315
+                    </a>
+                  </div>
                 </div>
               </div>
               

@@ -31,9 +31,9 @@ const FloristSection: React.FC = () => {
 
           <div className="relative h-[600px] hidden md:block">
             <div className="absolute top-10 right-10 w-80 h-[500px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform rotate-3 animate-float">
-              {/* Image 3 */}
+              {/* Image 18 (replaced 3.jpeg) */}
               <img 
-                src="https://marabie.eu/images_chlad/3.jpeg" 
+                src="https://marabie.eu/images_chlad/18.JPG" 
                 alt="Ukázka naší floristiky" 
                 className="w-full h-full object-cover"
               />

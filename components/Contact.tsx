@@ -64,11 +64,11 @@ const Contact: React.FC = () => {
                 </li>
                 <li className="flex justify-between items-center border-b border-stone-200/50 pb-3">
                   <span>Sobota</span>
-                  <span className="font-bold text-stone-900">8:00 - 10:30</span>
+                  <span className="font-bold text-stone-900">9:00 - 15:00</span>
                 </li>
                 <li className="flex justify-between items-center">
                   <span>Neděle</span>
-                  <span className="font-medium text-accent">Zavřeno</span>
+                  <span className="font-bold text-stone-900">10:00 - 15:00</span>
                 </li>
               </ul>
             </div>
